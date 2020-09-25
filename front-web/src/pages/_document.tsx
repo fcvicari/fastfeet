@@ -4,10 +4,10 @@ import Document, {
   DocumentContext,
   Html,
   Main,
+  Head,
   NextScript,
 } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
-import Head from 'next/head';
 
 export default class MyDocument extends Document {
   static async getInitialProps(
