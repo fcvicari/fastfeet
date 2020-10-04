@@ -3,5 +3,8 @@ module.exports = withImages({
   esModule: true,
   devIndicators: {
     autoPrerender: false,
-  }
+  },
+  publicRuntimeConfig: {
+    staticFolder: '/static',
+  },
 })
