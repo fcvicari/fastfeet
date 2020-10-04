@@ -89,7 +89,7 @@ const Home: React.FC = () => {
         width="100%"
         height="100%"
         backgroundImage={`url(${SingInBackgroudImage})`}
-        backgroundPosition="right"
+        backgroundPosition="center"
         backgroundRepeat="no-repeat"
         backgroundSize="cover"
       />
